@@ -1,0 +1,143 @@
+body {
+  background-color: #2a3a49;
+  padding: 20px;
+  margin: 0;
+}
+.horizontal-line {
+  border: 1px solid #f9d230;
+}
+/*Navagation bar*/
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px;
+}
+
+.left-side {
+  display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+  border-color: black;
+}
+
+.right-side {
+  color: #8a8a8a;
+  display: flex;
+  font-family: monospace;
+  font-size: large;
+  fo
+}
+
+/* Toggle Hive design*/
+.container,
+.menu {
+  height: 140px;
+  width: 160px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+.menu {
+  z-index: -1;
+  transform: scale(0.9);
+}
+.toggle {
+  height: 0;
+  width: 80px;
+  border-bottom: 70px solid #ffd700;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  position: absolute;
+  top: 0;
+}
+
+.toggle:before {
+  content: '';
+  height: 0;
+  width: 80px;
+  border-top: 70px solid #f9d230;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  position: absolute;
+  top: 70px;
+  left: -40px;
+}
+
+#add {
+  font-size: 100px;
+  color: white;
+  position: relative;
+  top: 20px;
+  right: 10px;
+  transition: 1s;
+}
+.item {
+  height: 0;
+  width: 80px;
+  border-bottom: 70px solid #ffff;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  position: absolute;
+  top: 0;
+  transition: 1s;
+}
+
+.item:before {
+  content: '';
+  height: 0;
+  width: 80px;
+  border-top: 70px solid #ffff;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  position: absolute;
+  top: 70px;
+  left: -40px;
+}
+
+a > .material-icons {
+  color: #d2d2d2;
+  font-size: 60px;
+}
+a {
+  position: relative;
+  top: 40px;
+  left: 10px;
+}
+.item-title {
+  color: #8a8a8a;;
+  padding-left: 10px;
+  padding: 0px;
+  margin-right: 20px;
+  font-size: 0.8em;
+  
+  position: relative;
+  border-bottom: 1px solid transparent;
+  font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,34 @@
+<body>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="left-side">
+        <div class="nav-link-wrapper">
+          <a href="index.html">Home</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="about-me.html">about</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="mywork.html">my work</a>
+        </div>
+
+        <div class="nav-link-wrapper">
+          <a href="contact-me.html">contact</a>
+        </div>
+      </div>
+
+      <div class="right-side">
+        <div class="brand">
+          <div>BAVANA SACHIDANAND</div>
+        </div>
+      </div>
+    </div>
+    <div class="contents-wrapper">
+      <div class="portfolio-items-wrapper">
+        <div class="portfolio-item-wrapper">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

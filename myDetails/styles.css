@@ -88,11 +88,15 @@ img {
 .about-bottom {
   width: fit-content;
   border: 1px solid #f9d230;
+  padding-bottom: 32px;
 }
 .about-me-text {
   text-align: center;
   color: #d2d2d2;
   font-family: 'Courier New', Courier, monospace;
+}
+.about-footer {
+  padding: 20px;
 }
 .skills-top {
   width: auto;
@@ -185,4 +189,8 @@ img {
   padding-bottom: 20px;
   font-family: 'Courier New', Courier, monospace;
   font-size: large;
+}
+
+.contact-item {
+  border: 40px solid transparent;
 }

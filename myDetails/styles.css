@@ -158,3 +158,31 @@ img {
   padding-bottom: 20px;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.contact-text {
+  text-align: center;
+  color: #d2d2d2;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-bottom {
+  width: auto;
+  border: 1px solid #f9d230;
+}
+
+.contact-info {
+  color: #d2d2d2;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+.contact-cv {
+  text-align: center;
+  color: #d2d2d2;
+  padding-left: 40px;
+  padding-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
